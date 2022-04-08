@@ -220,3 +220,21 @@ footer p {
 /* Background Position */
 .bg-pos-t-l { background-position: 10% 10%; }
 .bg-pos-b-r { background-position: 85% 85%; }
+
+
+/* Medie Query */
+
+
+
+@media (max-width: 48em) {
+    .hide-sm { display: none; }
+
+    .flex-flip-sm { flex-direction: column-reverse;}
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .logo { font-size: 3.5rem; }
+
+}

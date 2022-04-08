@@ -1,0 +1,222 @@
+/*
+- dark green - #1c2a2c
+- footer dark - #24282b
+
+    font-family: 'Raleway', sans-serif;
+    300, 400, 500, 900 (normal and italic)
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Temporary Styles */
+
+/*
+
+* {
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+*/ /*
+html, body {
+    padding: 0;
+    border: none;
+}
+*//*
+h1,h2,h3,h4,h5,h6,p,a {
+    border: 1px solid rgb(184, 92, 92)
+}
+*//*
+.bg-image {
+    background-color: rgb(170, 170, 79);
+}
+*/
+/* End temporary Styles */
+
+
+/* Utility Classes */
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded   { padding: 5%; }
+.padded-lg { padding: 10%;}
+.padded-1 { padding: 1rem; }
+.padded-2 { padding: 2rem; }
+
+.margin-b-0 { margin: 0; }
+
+.bg-featured { background-color: #1c2a2c}
+.bg-dark { background-color: #24282b;}
+
+.light-text { color: white; }
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+
+/* Typography */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+
+}
+
+h1 {
+    font-size: 9rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.subtle {
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+p,li {
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+p:last-child,
+li:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+a:hover {
+    color: #dfaf5e;
+}
+
+/* Footer */
+
+.logo {
+    font-size: 4.5rem;
+    line-height: 0.9;
+    font-weight: 900;
+}
+
+footer p {
+    margin-bottom: 0.2rem;
+}
+
+.footer-padding {padding: 5% 5% 0 5%};
+
+/* Background Images */
+
+.bg-image {
+    background-color: #1c2a2c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-1.jpg');
+}
+
+.bg-padded {
+    padding-bottom: 30%;
+}
+
+.bg-padded-square {
+    padding-bottom: 45%;
+}
+
+.bg-roof {
+    background-image: url('/images/the-bunker-5.jpg');
+}
+
+.bg-roof-social {
+    background-image: url('/images/the-bunker-5-flipped.jpg');
+    background-position: 50% 15%;
+}
+
+.bg-bed {
+    background-image: url('/images/the-bunker-1.jpg');
+}
+
+.bg-hallway {
+    background-image: url('/images/the-bunker-3.jpg');
+}
+
+.bg-lounge {
+    background-image: url('/images/the-bunker-4.jpg');
+}
+
+.bg-lounge-2 {
+    background-image: url('/images/the-bunker-2.jpg');
+}
+
+.bg-sheets {
+    background-image: url('/images/the-bunker-7.jpg');
+}
+
+.bg-map {
+    background-image: url('/images/map-sydney.png');
+}
+
+
+
+
+/* Aspect Ratio */
+.portrait-tall { padding-bottom: 175%; }
+.portrait { padding-bottom: 125%; }
+.square { padding-bottom: 100%; }
+.landscape { padding-bottom: 66%; }
+.landscape-2 { padding-bottom: 75%; }
+.landscape-wide { padding-bottom: 56%; }
+
+/* Background Position */
+.bg-pos-t { background-position: top; }
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-r { background-position: right; }
+
+/* Background Position */
+.bg-pos-t-l { background-position: left top; }
+.bg-pos-b-r { background-position: right bottom; }
+
+
+/* Background Position */
+.bg-pos-t-l { background-position: 10% 10%; }
+.bg-pos-b-r { background-position: 85% 85%; }
